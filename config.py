@@ -10,18 +10,18 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 API_ID = int(os.getenv("API_ID"))
 API_HASH = os.getenv("API_HASH")
 
-OWNER_ID = int(os.getenv("OWNER_ID", 7355202884))
+OWNER_ID = int(os.getenv("OWNER_ID", 6964203412))
 
 # Database Configuration
-MONGO_URI = os.getenv("MONGO_URI")
-DATABASE_NAME = os.getenv("DATABASE_NAME")
+MONGO_URI = os.getenv("mongodb+srv://Hinatabot:hinatanaruto@cluster0.fzdwxww.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = os.getenv("Cluster0")
 
 # Channel Configuration 
-DB_CHANNEL_ID = int(os.getenv("DB_CHANNEL_ID"))
-FORCE_SUB_CHANNEL = int(os.getenv("FORCE_SUB_CHANNEL")) # First force sub channel
-FORCE_SUB_CHANNEL_2 = int(os.getenv("FORCE_SUB_CHANNEL_2", 0)) # Second force sub channel, defaults to 0 if not set
-FORCE_SUB_CHANNEL_3 = int(os.getenv("FORCE_SUB_CHANNEL_3", 0))
-FORCE_SUB_CHANNEL_4 = int(os.getenv("FORCE_SUB_CHANNEL_4", 0))
+DB_CHANNEL_ID = int(os.getenv("DB_CHANNEL_ID", 1002623667730))
+FORCE_SUB_CHANNEL = int(os.getenv("FORCE_SUB_CHANNEL", 1002377815135)) # First force sub channel
+FORCE_SUB_CHANNEL_2 = int(os.getenv("FORCE_SUB_CHANNEL_2", 1002282783745)) # Second force sub channel, defaults to 0 if not set
+FORCE_SUB_CHANNEL_3 = int(os.getenv("FORCE_SUB_CHANNEL_3", 1002594005991))
+FORCE_SUB_CHANNEL_4 = int(os.getenv("FORCE_SUB_CHANNEL_4", 1002393557941))
 
 # Add a second channel link
 CHANNEL_LINK = os.getenv("CHANNEL_LINK") # First channel link
@@ -30,11 +30,11 @@ CHANNEL_LINK_3 = os.getenv("CHANNEL_LINK_3", "")
 CHANNEL_LINK_4 = os.getenv("CHANNEL_LINK_4", "") 
 
 #start photo 
-START_PHOTO = os.getenv("START_PHOTO", "") #start photo for bot
+START_PHOTO = os.getenv("START_PHOTO", "https://graph.org/file/f5a760c44739d7d3556d3-b4fc3f2a6eede69b89.jpg") #start photo for bot
 
 # Bot Information
-BOT_USERNAME = os.getenv("BOT_USERNAME")
-BOT_NAME = os.getenv("BOT_NAME")
+BOT_USERNAME = os.getenv("@narutoautofilterbot")
+BOT_NAME = os.getenv("Ɲ 么 ʀ ᴜ Ƭ͢ ᴏ ")
 BOT_VERSION = "2.0"
 
 # Privacy Mode Configuration and codexbotz delete time
@@ -47,9 +47,9 @@ if not MODIJI_API_KEY:
     print("⚠️ Warning: MODIJI_API_KEY not set in environment variables")
 
 # Links
-CHANNEL_LINK = os.getenv("CHANNEL_LINK")
-DEVELOPER_LINK = os.getenv("DEVELOPER_LINK")
-SUPPORT_LINK = os.getenv("SUPPORT_LINK")
+CHANNEL_LINK = os.getenv("CHANNEL_LINK", "https://t.me/moviehub4u_update")
+DEVELOPER_LINK = os.getenv("DEVELOPER_LINK" "https://t.me/moviehub4u_update")
+SUPPORT_LINK = os.getenv("SUPPORT_LINK""https://t.me/moviehub4u_update")
 
 # For Koyeb/render 
 WEB_SERVER = bool(os.getenv("WEB_SERVER", True)) # make it True if deploying on koyeb/render else False
