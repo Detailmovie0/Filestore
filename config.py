@@ -14,7 +14,7 @@ OWNER_ID = int(os.getenv("OWNER_ID", 6964203412))
 
 # Database Configuration
 MONGO_URI = os.getenv("")
-DATABASE_NAME = os.getenv("Cluster0")
+DATABASE_NAME = os.getenv("botdb")
 
 # Channel Configuration 
 DB_CHANNEL_ID = int(os.getenv("DB_CHANNEL_ID", 1002623667730))
