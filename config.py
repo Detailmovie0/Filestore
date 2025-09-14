@@ -13,7 +13,7 @@ API_HASH = os.getenv("API_HASH")
 OWNER_ID = int(os.getenv("OWNER_ID", 6964203412))
 
 # Database Configuration
-MONGO_URI = os.getenv("mongodb+srv://Hinatabot:hinatanaruto@cluster0.fzdwxww.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_URI = os.getenv("mongodb+srv://Moviehub:moviehub@cluster0.vahthyq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = os.getenv("Cluster0")
 
 # Channel Configuration 
